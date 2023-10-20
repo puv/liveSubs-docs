@@ -23,8 +23,8 @@ jobs:
       - name: Build 🔧
         run: npm run docs:build
 
-      # - name: Add CNAME file
-      #   run: echo "docs.subs.puv.bar" > ./dist/CNAME
+      - name: Add CNAME file
+        run: echo "docs.subs.puv.bar" > ./dist/CNAME
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
