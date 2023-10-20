@@ -1,7 +1,22 @@
-<a href="/en/">Get Started</a>
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
 
-<a href="/ja/">始めましょう</a>
+hero:
+  name: "liveSubs"
+  actions:
+    - theme: brand
+      text: Get Started
+      link: /en/
+    - theme: brand
+      text: 始めましょう
+      link: /ja/
+    - theme: brand
+      text: 시작하다
+      link: /ko/
+    - theme: brand
+      text: 開始使用
+      link: /zh-CH/
+---
 
-<a href="/ko/">시작하다</a>
 
-<a href="/zh-CH/">開始使用</a>
