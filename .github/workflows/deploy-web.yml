@@ -21,7 +21,7 @@ jobs:
         run: npm ci
 
       - name: Build 🔧
-        run: npm run build
+        run: npm run docs:build
 
       # - name: Add CNAME file
       #   run: echo "docs.subs.puv.bar" > ./dist/CNAME
