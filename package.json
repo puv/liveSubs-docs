@@ -1,0 +1,25 @@
+{
+  "name": "livesubs-docs",
+  "version": "1.0.0",
+  "description": "Documentation for liveSubs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puv/livesubs-docs.git"
+  },
+  "author": "puv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/puv/livesubs-docs/issues"
+  },
+  "homepage": "https://github.com/puv/livesubs-docs#readme",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.22"
+  }
+}
