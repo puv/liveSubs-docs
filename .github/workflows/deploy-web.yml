@@ -24,7 +24,7 @@ jobs:
         run: npm run docs:build
 
       - name: Add CNAME file
-        run: echo "docs.subs.puv.bar" > ./dist/CNAME
+        run: echo "docs.subs.puv.bar" > ./docs/.vitepress/distCNAME
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
